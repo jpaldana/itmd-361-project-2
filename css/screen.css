@@ -15,9 +15,21 @@ html {
 }
 
 body {
-  background: #efefef;
-  color: black;
+  background: yellow;
+  color: limegreen;
+  font-family: "Comic Sans MS";
+  /*letter-spacing: 3em;*/
+  /*transform: rotate(33deg);*/
 }
+p,
+h1,
+h2,
+h3,
+img,
+a {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { 100% { transform: scale(3); } }
 
 h1,
 h2,
@@ -75,7 +87,6 @@ img {
 
 #header nav li {
   display: inline-block;
-  width: 33.333%;
   text-align: center;
 }
 
